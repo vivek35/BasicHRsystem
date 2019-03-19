@@ -24,7 +24,10 @@ A) Add Employee to HR( system) - void addEmployee(Employee e) :
 The system takes an input from the system (use Scanner class to read from console) and the user types in all relevant information needed to create an employee object(including Role, Address, Phone, etc) and create a new Employee - Company relationship and add it to the HR via the HRService.
 
 B) Remove Employee from HR - int removeEmployee(int id)
+
 C) Search Employee
+
+
 a. List<Employee> search(String firstName, String lastName)
 b. Employee search(int id)
 If not employee found then the system should display a message: “No employee found…please modify search parameters”
