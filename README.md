@@ -25,6 +25,7 @@ B) Remove Employee from HR - int removeEmployee(int id)
 
 C) Search Employee
 
+
 a. List<Employee> search(String firstName, String lastName)
 b. Employee search(int id)
 If not employee found then the system should display a message: “No employee found…please modify search parameters”
